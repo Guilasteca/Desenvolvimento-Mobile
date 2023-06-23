@@ -1,0 +1,190 @@
+/* styles.css */
+
+/* Estilo global */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #fff;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Estilo da tela de login */
+.login-form {
+  text-align: center;
+}
+
+.login-form h2 {
+  margin-bottom: 20px;
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.login-form button {
+  background-color: #ffbb00;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #ffa500;
+}
+
+.login-form p {
+  margin-top: 20px;
+}
+
+/* Estilo da tela de cadastro */
+.registration-form {
+  text-align: center;
+}
+
+.registration-form h2 {
+  margin-bottom: 20px;
+}
+
+.registration-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.registration-form input[type="text"],
+.registration-form input[type="email"],
+.registration-form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.registration-form button {
+  background-color: #ffbb00;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.registration-form button:hover {
+  background-color: #ffa500;
+}
+
+/* Estilo da tela de recuperação de senha */
+.forgot-password-form {
+  text-align: center;
+}
+
+.forgot-password-form h2 {
+  margin-bottom: 20px;
+}
+
+.forgot-password-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.forgot-password-form input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.forgot-password-form button {
+  background-color: #ffbb00;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.forgot-password-form button:hover {
+  background-color: #ffa500;
+}
+
+/* Estilo da tela de dashboard */
+.dashboard {
+  text-align: center;
+}
+
+.dashboard h2 {
+  margin-bottom: 20px;
+}
+
+.product {
+  display: inline-block;
+  text-align: left;
+  width: 200px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  background-color: #1a1a1a;
+  padding: 10px;
+}
+
+.product img {
+  display: block;
+  margin: 0 auto;
+}
+
+.product .productDetails {
+  margin-top: 10px;
+}
+
+.product h2 {
+  margin-bottom: 5px;
+}
+
+.product p {
+  margin: 0;
+}
+
+.product .buyButton {
+  background-color: #ffbb00;
+  color: #000;
+  border: none;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.product .buyButton:hover {
+  background-color: #ffa500;
+}
+
+.dashboard button {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.dashboard button:hover {
+  background-color: #cc0000;
+}
