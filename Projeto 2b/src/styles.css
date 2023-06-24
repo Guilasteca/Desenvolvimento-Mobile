@@ -1,0 +1,112 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+.login-form,
+.registration-form,
+.forgot-password-form,
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+.login-form input,
+.registration-form input,
+.forgot-password-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.login-form button,
+.registration-form button,
+.forgot-password-form button,
+.dashboard button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.login-form button:hover,
+.registration-form button:hover,
+.forgot-password-form button:hover,
+.dashboard button:hover {
+  background-color: #555;
+}
+
+.login-form p,
+.registration-form p,
+.forgot-password-form p {
+  margin-top: 10px;
+}
+
+.dashboard .product {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.dashboard .product img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.dashboard .productDetails {
+  text-align: left;
+}
+
+.dashboard .productDetails h2 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.dashboard .productDetails p {
+  margin-bottom: 10px;
+}
+
+.dashboard .buyButton {
+  padding: 5px 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.dashboard .buyButton:hover {
+  background-color: #555;
+}
+
+.dashboard button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.dashboard button:hover {
+  background-color: #555;
+}
